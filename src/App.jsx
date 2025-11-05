@@ -3,9 +3,9 @@ import Display from "./components/Display"
 import Player from "./components/Player"
 import Sidebar from "./components/Sidebar"
 import { PlayerContext } from "./context/PlayerContext"
-import { StatsigClient } from '@statsig/js-client'
-import { StatsigSessionReplayPlugin } from '@statsig/session-replay';
+import { StatsigProvider, useClientAsyncInit } from '@statsig/react-bindings';
 import { StatsigAutoCapturePlugin } from '@statsig/web-analytics';
+import { StatsigSessionReplayPlugin } from '@statsig/session-replay';
 
 const App = () => {
   const {audioRef,track} = useContext(PlayerContext)
