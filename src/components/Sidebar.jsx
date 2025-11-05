@@ -6,7 +6,10 @@ const Sidebar = () => {
   return (
     <div className="w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
       <div className="p-4 flex items-center justify-center">
-        <img className="w-20" src={assets.spotify_logo} alt="Spotify Logo" />
+        <div className="flex items-center gap-3">
+          <img className="w-8" src={assets.spotify_logo} alt="Spotify Logo" />
+          <span className="text-2xl font-bold tracking-widest">Spotify</span>
+        </div>
       </div>
       <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
         <div onClick={()=>navigate('/')} className="flex items-center gap-3 pl-8 cursor-pointer">
