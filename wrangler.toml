@@ -2,6 +2,6 @@ name = "spotify"
 main = "dist/_worker.js"
 compatibility_date = "2025-11-04"
 
-[site]
-bucket = "./dist"
-entry-point = "workers-site"
+[build]
+command = "npm run build"
+upload.format = "modules"
