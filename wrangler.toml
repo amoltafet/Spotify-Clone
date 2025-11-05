@@ -1,0 +1,6 @@
+name = "spotify"
+compatibility_date = "2025-11-04"
+main = "dist/index.html"
+
+[site]
+bucket = "./dist"
