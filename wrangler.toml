@@ -1,6 +1,7 @@
-name = "spotify"
+name = "spotify-clone"
+main = "dist/_worker.js"
 compatibility_date = "2025-11-04"
-main = "src/main.jsx"
 
 [site]
 bucket = "./dist"
+entry-point = "workers-site"
