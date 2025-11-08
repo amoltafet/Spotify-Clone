@@ -25,7 +25,7 @@ const growthbook = new GrowthBook({
 });
 
 const App = () => {
-  // const {audioRef,track} = useContext(PlayerContext)
+  const {audioRef,track} = useContext(PlayerContext)
   // const { client } = useClientAsyncInit(
   //   "client-QSXaobm2DKxdOXm1fukCT7kWcBrPMlrFWNZ7T1wicCm",
   //   { userID: 'a-user' }, 
