@@ -11,6 +11,7 @@
     "deploy": "wrangler pages deploy dist"
   },
   "dependencies": {
+    "@growthbook/growthbook-react": "^1.6.2",
     "@statsig/react-bindings": "^3.29.1",
     "@statsig/session-replay": "^3.29.1",
     "@statsig/web-analytics": "^3.29.1",
